@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <title>page</title>
+        <link href="stylesheet.css" rel="stylesheet">
+        <link href="scripts.js" rel="scripts">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <main>
+            <form>
+                <label>First Name</label>
+                <input name="First Name" type="text" placeholder="First Name" required>
+                <label>Second Name</label>
+                <input name="Second Name" type="text" placeholder="Second Name" required>
+                <label>Do You Have Outdoor Space?</label><input name="Outside Space" type="checkbox" value="agree" > 
+                <label>Do You Have children</label><input name="children" type="checkbox" value="agree" >
+                <input type="submit">
+                <label>What is the average age of your children? </label><select name="ages" required>
+                    <option value="toddler">1-5</option>
+                    <option value="young" selected>6-10</option>
+                    <option value="older">10+</option>
+                    </select>
+                <label>Do you have any other pets?</label><input type="checkbox">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </main>
+    </body>
+</html>
